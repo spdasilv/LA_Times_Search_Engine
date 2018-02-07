@@ -1,0 +1,11 @@
+To produce a rankings file, run the programs in the following order:
+
+1- Run "Get_Titles.py"
+2- Manually remove the lines containing topics 416, 423, 437, 444, and 447.
+3- Add the LA Times file to this location.
+2- Run "BM25 Search Engine - CUS - CMP.exe"
+
+If you want to produce a text file containing precision scores and 
+nDCG scores run the following file:
+
+1- Run Evaluate_Rank.py
